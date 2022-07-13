@@ -9,6 +9,7 @@ public class ViewParent {
 		mainFrame = new JFrame();
 		mainFrame.setSize(700, 500);
 		mainFrame.setVisible(true);
+		mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	
 }
